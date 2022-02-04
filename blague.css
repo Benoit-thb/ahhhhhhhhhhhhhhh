@@ -1,0 +1,44 @@
+#cont{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bloc{
+
+	height: 50px;
+	max-height: 3000px;
+	max-width: 3000px;
+	width: 50px;
+	object-fit: contain;
+	animation: 25s linear 0s infinite alternate eric;
+	/*background-image:url(megabg.jpg);*/
+
+}
+#oui{
+	object-fit: contain;
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes eric 
+{ 
+	from 
+	{ 
+		height: 50px;
+		width: 50px;
+	} 
+	to 
+	{ 
+		height: 2000px;
+		width: 2000px; 
+	}  
+}
+
+
